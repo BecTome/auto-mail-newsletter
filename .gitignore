@@ -1,3 +1,4 @@
 security/credentials.txt
 scripts/__pycache__/*
+scripts/lib/__pycache__/*
 .vscode/*

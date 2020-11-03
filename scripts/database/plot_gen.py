@@ -62,7 +62,7 @@ plt.show()
 # Plot a piechart of the amount of contributions by user in the final solution
 axpie = df_g[['SubmittedUserId', 'PrivateScoreFullPrecision']].\
                  groupby('SubmittedUserId').count().\
-                 plot.pie(y='PrivateScoreFullPrecision', figsize=(10, 10),
+                 plot.pie(y='PrivateScoreFullPrecision', figsize=(18, 10),
                  autopct='%.2f%%', fontsize=20, pctdistance=.7, 
                  legend=False )
 sns.color_palette("husl", 8)
